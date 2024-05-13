@@ -40,8 +40,7 @@ const FeaturedSection = () => {
               <p>{cousre.slug}</p>
               <p>{cousre.description}</p>
               <p>Price : {cousre.price}</p>
-              <p>Instructor : {cousre.instructor}</p>
-               <Link href={'/course'}>Learn More</Link>
+               <Link href={'/course'} className=' bg-slate-50 text-black py-1 px-3 rounded-lg mt-3 inline-block font-semibold text-[1.2rem]'>Learn More</Link>
             </div>
            </BackgroundGradient>
           </div>
