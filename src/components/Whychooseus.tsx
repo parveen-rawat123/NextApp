@@ -8,7 +8,13 @@ const content = [
         "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Collaborative Editing
+         <Image
+            src={'/music_three.avif'}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
         </div>
       ),
     },
@@ -19,7 +25,7 @@ const content = [
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
           <Image
-            src={'/music_two.avif'}
+            src={'/music_one.avif'}
             width={300}
             height={300}
             className="h-full w-full object-cover"
@@ -34,7 +40,13 @@ const content = [
         "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Version control
+          <Image
+            src={'/music_six.avif'}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
         </div>
       ),
     },
@@ -44,7 +56,13 @@ const content = [
         "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
+       <Image
+            src={'/music_five.avif'}
+            width={300}
+            height={300}
+            className="h-full w-full object-cover"
+            alt="linear board demo"
+          />
         </div>
       ),
     },

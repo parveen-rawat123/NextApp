@@ -31,7 +31,7 @@
         "isFeatured": true,
         "image": "/music_three.avif" 
       },
-      {
+      { 
         "id": 4,
         "title": "Drumming Mastery",
         "slug": "drumming-mastery",
