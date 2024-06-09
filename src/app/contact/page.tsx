@@ -7,7 +7,7 @@ const page = () => {
         <div className=' flex flex-col justify-center items-center gap-4
         '>
       <h1 className=' text-4xl md:text-7xl font-semibold sm:text-5xl'>Contact Us</h1>
-      <p className=' text-center'> We're here to help with any questions about our courses, programs, or everits. Reach out and let us know how we can assist you in your musical Journey.</p>
+      <p className=' text-center'> We&apos;re here to help with any questions about our courses, programs, or everits. Reach out and let us know how we can assist you in your musical Journey.</p>
         </div>
         <div className=' flex flex-col gap-8'>
             <input type="text" placeholder='Your email address' className='bg-black rounded-md py-4 px-5'/>

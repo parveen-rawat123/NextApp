@@ -29,18 +29,22 @@ const FeaturedSection = () => {
         {featuredcourses.map((cousre:Course)=>(
           <div key={cousre.id} className='flex justify-center'>
            <BackgroundGradient className='rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900'>
-            <div className='h-[25rem]'>
-              <Image className='rounded-lg'
+            <div className='h-[25rem] text-gray-400'>
+             <div className=' h-[50%]'>
+              <Image className='rounded-lg h-[100%] w-[100%]'
               src={cousre?.image}
               alt='course'
-              width={400}
-              height={400}
+              width={100}
+              height= {100}
               />
+              </div>
+              <div className='mt-4'>
               <b className=' text-xl'>{cousre.title}</b>
               <p>{cousre.slug}</p>
               <p>{cousre.description}</p>
               <p>Price : {cousre.price}</p>
-               <Link href={'/course'} className=' bg-slate-50 text-black py-1 px-3 rounded-lg mt-3 inline-block font-semibold text-[1.2rem]'>Learn More</Link>
+               <Link href={'/courses'} className=' bg-slate-50 text-black py-1 px-3 rounded-lg mt-3 inline-block font-semibold text-[1.2rem]'>Learn More</Link>
+              </div>
             </div>
            </BackgroundGradient>
           </div>
